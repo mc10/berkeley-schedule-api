@@ -1,14 +1,25 @@
 {
   "name": "oski",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An API wrapper for Berkeley's schedule of classes.",
   "main": "index.js",
+  "scripts": {},
+  "engines": {
+    "node": "4.x"
+  },
   "dependencies": {
     "cheerio": "^0.19.0",
     "request": "^2.64.0"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-jscs": "^3.0.1",
+    "gulp-jscs-stylish": "^1.2.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-plumber": "^1.0.1",
+    "jshint-stylish": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mc10/berkeley-schedule-api.git"

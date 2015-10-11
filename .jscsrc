@@ -1,0 +1,6 @@
+{
+  "preset": "google",
+  "disallowSpacesInsideObjectBrackets": null,
+  "requireParenthesesAroundIIFE": true,
+  "requireSpacesInsideObjectBrackets": "all"
+}
